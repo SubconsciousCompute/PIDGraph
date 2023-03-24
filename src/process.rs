@@ -1,8 +1,4 @@
 use serde::Deserialize;
-
-use petgraph::{Direction, Graph};
-use std::collections::HashMap;
-use std::hash::Hasher;
 use wmi::WMIDateTime;
 
 /// The Win32_Process WMI class represents a process on an operating system <https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-process>
